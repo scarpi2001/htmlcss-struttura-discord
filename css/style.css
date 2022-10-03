@@ -1,0 +1,88 @@
+/* Generali */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* intestazione */
+
+/* barra di navigazione */
+nav {
+    display: flex;
+    justify-content: space-between;
+    /* DEBUG */
+    background-color: blueviolet;
+    height: 60px;
+}
+
+    .logo {
+        width: 25%;
+        /* DEBUG */
+        border: 1px solid black;
+    }
+
+    .menu {
+         width: 46%;
+        /* DEBUG */
+        border: 1px solid black;
+    }
+
+    .access {
+        width: 25%;
+        /* DEBUG */
+        border: 1px solid black;
+    }
+ 
+/* sottosezione header */
+.under-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* DEBUG */
+    height: 360px;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+    .un-block {
+        width: 60%;
+        /* DEBUG */
+        background-color: blueviolet;
+        border: 1px solid black;
+        height: 60%; 
+    }
+
+/* corpo della pagina */
+.riga {
+    display: flex;
+}
+
+    .sezione-immagine {
+        width: 60%;
+        /* DEBUG */
+        background-color: blue;
+        border: 1px solid black;
+        height: 400px;
+    }
+
+    .sezione-testo {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        /* DEBUG */
+        background-color: aqua;
+        border: 1px solid black;
+    }
+
+        .nero {
+            /* DEBUG */
+            border: 1px solid black;
+            height: 50%;
+        }
+
+.due {
+    flex-direction: row-reverse;
+}
+
