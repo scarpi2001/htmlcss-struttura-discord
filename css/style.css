@@ -10,7 +10,7 @@
 /* barra di navigazione */
 nav {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     /* DEBUG */
     background-color: blueviolet;
     height: 60px;
@@ -23,7 +23,7 @@ nav {
     }
 
     .menu {
-         width: 46%;
+         width: 50%;
         /* DEBUG */
         border: 1px solid black;
     }
@@ -46,7 +46,7 @@ nav {
     border: 1px solid black;
 }
 
-    .un-block {
+    .blocco-nav {
         width: 60%;
         /* DEBUG */
         background-color: blueviolet;
@@ -54,9 +54,19 @@ nav {
         height: 60%; 
     }
 
+        .sottoblocco-nav {
+            /* DEBUG */
+            border: 1px solid black;
+            height: calc(100% / 3);
+        }
+
 /* corpo della pagina */
+
+/* riga */
 .riga {
     display: flex;
+    /* DEBUG */
+    height: 400px;
 }
 
     .sezione-immagine {
@@ -64,7 +74,7 @@ nav {
         /* DEBUG */
         background-color: blue;
         border: 1px solid black;
-        height: 400px;
+        
     }
 
     .sezione-testo {
@@ -76,7 +86,7 @@ nav {
         border: 1px solid black;
     }
 
-        .nero {
+        .testo {
             /* DEBUG */
             border: 1px solid black;
             height: 50%;
@@ -85,4 +95,82 @@ nav {
 .due {
     flex-direction: row-reverse;
 }
+
+/* colonna */
+.colonna {
+    display: flex;
+    flex-direction: column;
+    /* DEBUG */
+    height: 800px;
+    background-color: brown;
+}
+
+    .sezione {
+        /* DEBUG */
+        height: 10%;
+        border: 1px solid black;
+    }
+
+    .immagine-colonna {
+        /* DEBUG */
+        height: 60%;
+        border: 1px solid black;
+    }
+
+    .download {
+        /* DEBUG */
+        height: 20%;
+        border: 1px solid black;
+    }
+
+    /* footer */
+    footer {
+        padding: 50px 0;
+        /* DEBUG */
+        /* height: 700px; */
+        background-color: black;
+    }
+
+        .blocco-footer {
+            display: flex;
+            width: 80%;
+            margin: 0 auto;
+            /* DEBUG */
+            background-color: grey;
+            height: 400px;
+        }
+
+            .sottoblocco-footer {
+                /* DEBUG */
+                width: 20%;
+                border: 1px solid black;
+            }
+
+        /* piedipagina */
+        .piedipagina {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            margin: 0 auto;
+            /* DEBUG */
+            background-color: grey;
+            border: 1px solid black;
+            height: 60px;
+
+        }
+
+            .register {
+                width: 25%;
+                border: 1px solid black;
+            }
+
+
+
+
+
+
+
+
+
+
 
